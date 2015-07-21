@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Lorem ipsum placeholder is a tool for webdevelopers to easily fill HTML elements with an X amount of words.">
+  <meta name="keywords" content="Lipsum,lorem ipsum generator, dummy text, Lorem, ipsum, placeholder, javascript, jQuery, data, web, developer, development, lightweight, browser, attribute">
+  <meta name="author" content="Kevin van den Heuvel">
+  <meta name="robots" content="index, follow">
+  <meta name="rating" content="safe for kids">
+  <meta name="author" content="lipsumplaceholder.com">
+  <meta name="publisher" content="lipsumplaceholder.com">
+  <meta http-equiv="Content-Language" content="en">
+  
+  <title>Lorem ipsum placeholder</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/lemonade.css">
+
+
+  <!-- GOOGLE ANALYTCS  -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54062719-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+  <div class="frame top">
+    <div class="bit-90">
+      <h1><a href="/">Lorem Ipsum placeholder</a></h1>
+    </div>
+    <div class="bit-10">
+      <p><img class="menubtn" src="img/menu.svg"></p>
+    </div>
+  </div>
+
+  <div class="frame menu">
+    <div clas="bit-1">
+      <ul>
+        <a href="#start"><li>Getting started</li></a>
+        <a href="#example"><li>Example</li></a>
+        <a href="#how"><li>How does it work</li></a>
+        <a href="#support"><li>Support</li></a>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="frame main">
+    <div class="bit-1">
+      <h2>Welcome to the Lorem Ipsum placeholder for web-developers</h2>
+      <p>Lipsum placeholder is an easy-to-use lightweight jQuery-script to easily fill any element with random Lorem Ipsum text on your website. It works on all browsers that support Javascript.</p>
+      
+
+      <a name="start"></a>
+      <h2>Getting started</h2>
+      <p>My main objective was to make it super simple and easy-to-use because if it wasn't you could just go to the lorem ipsum website and copy some text.</p>
+      <p>To get this script working you have to import the script after jQuery because it uses jQuery ;-)</p>
+        <div class="code">
+          <span class="openclose">&lt;</span><span class="sort">script</span> <span class="attr">src=</span><span class="attrval">"//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"</span><span class="openclose">&gt;&lt;</span><span class="sort">/script</span><span class="openclose">&gt;</span><br>
+          <span class="openclose">&lt;</span><span class="sort">script</span> <span class="attr">src=</span><span class="attrval">"//lipsumplaceholder.com/lorem.min.js"</span><span class="openclose">&gt;&lt;</span><span class="sort">/script</span><span class="openclose">&gt;</span>          
+        </div>
+
+      <p>Then all you need to do is add the class "lorumText" to any HTML element. Then add the attribute "numberWords" to tell the script how many words you would like to use and that's it!</p>
+        <div class="code">
+          <span class="openclose">&lt;</span><span class="sort">p</span> <span class="attr">class=</span><span class="attrval">"loremText"</span> <span class="attr">numberWords=</span><span class="attrval">"50"</span><span class="openclose">&gt;&lt;</span><span class="sort">/p</span><span class="openclose">&gt;</span><br>
+        <span class="openclose">&lt;</span><span class="sort">div</span> <span class="attr">class=</span><span class="attrval">"loremText"</span> <span class="attr">numberWords=</span><span class="attrval">"500"</span><span class="openclose">&gt;&lt;</span><span class="sort">/div</span><span class="openclose">&gt;</span><br>
+        </div>
+
+
+        <a name="example"></a>
+        <h2>Example</h2>
+        <p>You can copy this code to see the example or <a href="demo.html" target="_blank">click here</a> for the demo page.</p>
+      <div class="code">
+        <span class="openclose">&lt;</span><span class="sort">html</span><span class="openclose">&gt;</span><br>
+        <span class="openclose tab1">&lt;</span><span class="sort">head</span><span class="openclose">&gt;</span><br>
+
+        <span class="openclose tab2">&lt;</span><span class="sort">title</span><span class="openclose">&gt;Lorem ipsum example&lt;</span><span class="sort">/title</span><span class="openclose">&gt;</span><br>        
+
+        <span class="openclose tab1">&lt;</span><span class="sort">/head</span><span class="openclose">&gt;</span><br>
+
+        <span class="openclose tab1">&lt;</span><span class="sort">body</span><span class="openclose">&gt;</span><br>
+
+        <span class="comment tab2">&lt;!-- Add the class loremText to any element and set numberWords to any value --&gt;</span><br>
+        <span class="openclose tab2">&lt;</span><span class="sort">p</span><span class="openclose">&gt;Here are 50 random Lorem ipsum words inside a paragraph&lt;</span><span class="sort">/p</span><span class="openclose">&gt;</span><br>
+
+        <span class="openclose tab2">&lt;</span><span class="sort">p</span> <span class="attr">class=</span><span class="attrval">"loremText"</span> <span class="attr">numberWords=</span><span class="attrval">"50"</span><span class="openclose">&gt;&lt;</span><span class="sort">/p</span><span class="openclose">&gt;</span><br>
+
+        <span class="openclose tab2">&lt;</span><span class="sort">p</span><span class="openclose">&gt;Here are 500 random Lorem ipsum words inside a div&lt;</span><span class="sort">/p</span><span class="openclose">&gt;</span><br>
+        <span class="openclose tab2">&lt;</span><span class="sort">div</span> <span class="attr">class=</span><span class="attrval">"loremText"</span> <span class="attr">numberWords=</span><span class="attrval">"500"</span><span class="openclose">&gt;&lt;</span><span class="sort">/div</span><span class="openclose">&gt;</span><br><br>
+
+
+
+        <span class="comment tab2">&lt;!-- load jQuery --&gt;</span><br>
+
+        <span class="openclose tab2">&lt;</span><span class="sort">script</span> <span class="attr">src=</span><span class="attrval">"//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"</span><span class="openclose">&gt;&lt;</span><span class="sort">/script</span><span class="openclose">&gt;</span><br>
+
+        <span class="comment tab2">&lt;!-- load lipsum placeholder script --&gt;</span><br>
+        <span class="openclose tab2">&lt;</span><span class="sort">script</span> <span class="attr">src=</span><span class="attrval">"//lipsumplaceholder.com/lorem.min.js"</span><span class="openclose">&gt;&lt;</span><span class="sort">/script</span><span class="openclose">&gt;</span><br>        
+
+
+        <span class="openclose tab1">&lt;</span><span class="sort">/body</span><span class="openclose">&gt;</span><br>
+        <span class="openclose">&lt;</span><span class="sort">/html</span><span class="openclose">&gt;</span><br>
+      </div>
+
+
+      <a name="how"></a>
+      <h2>How does it work?</h2>
+      <p>The script will append random words from a array to the element(s) with the class "lorumText". The value that is used in the attribute "numberWords" will be the amount words that will get appended to the element. It will do that for every element with the class "lorumText" and attribute "numberWords".</p>
+
+      <p>This is the script that makes the magic happen.</p>
+
+      <div class="code">
+        <span class="comment">// Make an Array with all the words</span><br>
+        <span class="function">var</span> data <span class="sort">=</span> [ <span class="attrval">"Lorem"</span>,<span class="attrval">"ipsum"</span>, <span class="attrval">"..."</span> ]; <br>
+
+        <span class="comment">// loop through all elements on the page that contain the class "loremText"</span><br>
+        <span class="sort">$</span>( <span class="attrval">".loremText"</span> ).each(<span class="function">function</span>() {<br>
+
+        <span class="comment tab1">// read the value from "numberWords"</span><br>
+        <span class="tab1 function">var</span> numberWords = <span class="sort">$</span>(this).attr(<span class="attrval">"numberWords"</span>);</br>
+
+        <span class="comment tab1">// use the value to loop an X amount of times through the code</span><br>
+        <span class="sort tab1">for</span> (<span class="function">var</span> i <span class="sort">=</span> <span class="number">0</span>; i <span class="sort"><</span> numberWords; i<span class="sort">++</span>) {<br>
+
+        <span class="comment tab2">// create a random number between 0 and the length from the array - 1</span><br>
+        <span class="function tab2">var</span> arrayPos <span class="sort">=</span> (<span class="function">Math</span>.<span class="function">floor</span>(<span class="function">Math</span>.<span class="function">random</span>() <span class="sort">*</span> data.<span class="function">length</span>) <span class="sort">+</span> <span class="number">1</span>) <span class="sort">-</span> <span class="number">1</span>;<br>
+
+        <!-- <span class="comment tab2">// if there isn't an error, append the datavalue to the HTML element</span><br> -->
+        <!-- <span class="sort tab2">try</span> { <br> -->
+        <span class="sort tab2">$</span>(this).append(data[arrayPos].lorem <span class="sort">+</span> <span class="attrval">" "</span>);</br>
+        <!-- <span class="tab2">}</span> <br> -->
+
+        <!-- <span class="comment tab2">// if there is an error, append "lorem ipsum" to the HTML element</span><br> -->
+        <!-- <span class="sort tab2">catch</span>(err) { <br> -->
+        <!-- <span class="sort tab3">$</span>(this).append(<span class="attrval">"lorem ipsum "</span>);</br> -->
+        <!-- <span class="tab2">}</span> <br> -->
+
+        <span class="tab1">};</span> <br>
+        <span>});</span> <br>
+      </div>
+    </div>
+  </div>
+
+
+  <a name="support"></a>
+  <div class="frame support">
+    <div class="bit-1">
+      <h2>Support</h2>
+      <p>I hope the above makes sense and you've taken an interest in Lorem ipsum placeholder. If you're having any problems with it or if you like it, you can leave a comment below.</p>
+    </div>
+    <div class="bit-1">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'loremipsumplaceholder'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+    </div>
+  </div>
+
+  <div class="frame footer">
+
+    <div class="bit-1">
+      <p>Lorem Ipsum placeholder was created by <a href="https://twitter.com/Kvandenheuvel_" target="_blank">Kevin van den Heuvel</a>, It's completely open source and Licensed under MIT.</p>
+    </div>
+  </div>
+
+
+  <!-- JS -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="lorem.min.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
